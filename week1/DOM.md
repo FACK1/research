@@ -37,6 +37,7 @@ Using `addEventListener` allows us to add unlimited events.
 
 	ulElement.childNodes.addAt(0, liElement);
 
+# What is a JavaScript Event?
 HTML events are **things** that happen to HTML elements.  
 When JavaScript is used in HTML pages, JavaScript can **react** on these events.
 
