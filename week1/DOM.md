@@ -30,7 +30,7 @@ Using `addEventListener` allows us to add unlimited events.
 	getElementById('btnTalker').addEventListener('click', function() {say('Hi from js\n')});
 	getElementById('btnTalker').addEventListener('click', function() {say('Hi from js,, again\n')});
 
-> `Hi from js`
+> `Hi from js`  
 > `Hi from js,, again`
 
 ## How would you add a `<li>` element to the start of a `<ul>`?
