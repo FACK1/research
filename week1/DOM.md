@@ -77,7 +77,7 @@ A NodeList is a collection of document nodes.
 	var nodeList = document.getElementsByClassName('myClassName'); //returns a nodeList
 	var arr = [];
 	for(let i = 0; i<nodeList.length;i++)
-		arr.push(nodeList[i]);                                     //returns an array
+		arr.push(nodeList[i]);                                 //returns an array
 	nodeList[0].innerHtml = '<b>This is changes</b>';              //Changes DOM
 	arr[0].innerHtml = '<b>This is changes</b>';                   //Doesn't affect DOM
 
