@@ -1,5 +1,15 @@
 # DOM manipulation
 
+Content
+
+ - [use JavaScript to create an HTML element](#how-can-you-use-javascript-to-create-an-html-element-and-then-add-it-to-your-webpage)
+ - [`onClick()` vs `handler`](#onclick-vs-handler)
+ - [add a `<li>` element to the start of a `<ul>`](#how-would-you-add-a-li-element-to-the-start-of-a-ul)
+ - [JavaScript Events](#what-is-a-javascript-event)
+ - [event.preventDefault()](what-does-eventpreventdefault-do-and-why-might-you-use-it)
+ - [`NodeList` vs `Arrays`](#what-is-a-nodelist-how-is-it-different-from-an-array)
+ - [Cross-site scripting (XSS)](#security-concerns-around-elementinnerhtml-what-to-use-instead)
+
 ## How can you use JavaScript to create an HTML element and then add it to your webpage?
 
 To create an HTML elelment in JS we can use the function `Document.createElement()`
