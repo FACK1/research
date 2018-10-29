@@ -8,7 +8,7 @@ To create an HTML elelment in JS we can use the function `Document.createElement
 
 and to create a Text in JS we use the function `Document.createTextNode()`
 
-    var texe = document.createTextNode("CLICK ME");
+    var text = document.createTextNode("CLICK ME");
 
 To append a text to an element in JS we use the function `appendChild()`
 
